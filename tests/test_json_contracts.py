@@ -8,9 +8,9 @@ from pathlib import Path
 from typing import TYPE_CHECKING, Final, cast
 
 import pytest
-
 from x_make_common_x.exporters import ExportResult
 from x_make_common_x.json_contracts import validate_payload, validate_schema
+
 from x_make_mermaid_x.json_contracts import ERROR_SCHEMA, INPUT_SCHEMA, OUTPUT_SCHEMA
 from x_make_mermaid_x.x_cls_make_mermaid_x import main_json
 
